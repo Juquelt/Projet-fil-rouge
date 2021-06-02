@@ -27,6 +27,27 @@ h1
     margin-top: 150px;
 }
 
+.titre
+{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 150px;
+    margin-top: 150px;
+}
+
+.fond
+{
+   position: block;
+   max-width: 300px;
+   height: auto;
+}
+
+.logoClass
+{
+    position: relative;
+
+}
 
 
 footer
@@ -63,7 +84,7 @@ footer > ul > li
 
 }
 
-.bouton1 
+.bouton1
 {
     width: 202px;
     display: flex;
@@ -89,7 +110,86 @@ footer > ul > li
 
 }
 
-.bannierelogo > img
+.bouton1I
+{
+    width: 202px;
+    display: flex;
+    background:#00BABF;
+    justify-content: flex-start;
+    align-items: center;
+    height: 31px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: white;
+    
+    position: relative;
+    top : 700px;
+    right : 170px;
+    
+    
+}
+
+.bouton1I :hover 
+{
+    background-color: turquoise;
+    color: white;
+
+}
+
+.bouton2I 
+{
+    z-index: 1;
+    width: 202px;
+    display: flex;
+    background: gainsboro;
+    justify-content: flex-start;
+    align-items: center;
+    height: 31px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color : #00BABF;
+    margin-left: 10px;
+    position: relative;
+    top : 550px;
+    right: 160px;
+    
+}
+
+.bouton2I :hover 
+{
+  background-color: turquoise;
+  color: #00BABF;
+
+}
+
+.bouton2 
+{
+    z-index: 1;
+    width: 202px;
+    display: flex;
+    background: gainsboro;
+    justify-content: flex-start;
+    align-items: center;
+    height: 31px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color : #00BABF;
+    margin-left: 10px;
+    position: relative;
+    top : 550px;
+    right: 160px;
+    
+}
+
+.bouton2 :hover 
+{
+  background-color: turquoise;
+  color: #00BABF;
+
+}
+
+
+.bannierelogoI > img
 {
     position: relative;
     display: flex ;
@@ -98,7 +198,14 @@ footer > ul > li
     bottom: 150px;
 }
 
-.sub 
+.bannierelog > img
+{
+position: relative;
+display: flex;
+justify-content: flex-start;
+}
+
+.subI 
 {
     display: block;
     justify-content: center;
@@ -108,31 +215,31 @@ footer > ul > li
     color: #8FC5C6;
 }
 
-.name
+.nameI
 {
     margin-bottom: 20px;
     color: #8FC5C6;
 }
 
-.mail
+.mailI
 {
     margin-bottom: 20px;
     color: #8FC5C6;
 }
 
-.mdp
+.mdpI
 {
     margin-bottom: 20px;
     color: #8FC5C6;
 }
 
-.city
+.cityI
 {
     margin-bottom: 20px;
     color: #8FC5C6;
 }
 
-.school
+.schoolI
 {
     margin-bottom: 20px;
     color: #8FC5C6;

@@ -207,12 +207,16 @@ justify-content: flex-start;
 
 .subI 
 {
-    display: block;
     justify-content: center;
     margin-top: 350px;
     margin-left: 60px;
     border-color: #00BABF;
     color: #8FC5C6;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border-color :#00BABF
 }
 
 .nameI

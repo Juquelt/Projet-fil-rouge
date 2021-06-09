@@ -1,0 +1,165 @@
+a { color: inherit;     text-decoration: none;} 
+
+body{
+  padding: 0;
+  margin: 0;
+}
+.header > img {
+width: 100%;}
+
+.logo {
+  text-align: end;
+  margin-top: -250px;
+}
+   
+   
+.infotext {
+ padding-left: 10px;
+}
+   
+   
+#Hebergements {
+   
+  border-radius: 15px;
+  width: 70%;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: -780px;     
+}
+.vignette {
+   
+  background-color: #C0F6F7;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px 20px 5px;
+  box-shadow: 0 5px 16px #0000002e;
+  transition: all 1s ease;
+}
+   
+.vignette:hover {
+  transform: scale(1.05);
+}
+.vignette img {  
+  border-radius: 15px 15px 0px 0px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+}
+
+.Pers_co {
+  align-items: center;
+  margin-left: 70px;
+  background-color:#F1B3A1;
+  font-size: 16px;
+}
+   
+     
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact > a {
+  display: flex;
+
+}
+
+.contact > p {
+  position: relative;
+  display: flex;
+  
+
+
+}
+   
+   
+.thematiques {
+  display:flex;
+}
+.vignette2 {
+  background-color: #C0F6F7;
+  border-radius: 20px;
+  height: 320px;
+  width: 432px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px 20px 5px;
+  box-shadow: 0 5px 16px #0000002e;
+  transition: all 1s ease;
+  margin-top: 300px;
+}
+   
+.vignette2:hover {
+  transform: scale(1.05);
+}
+.vignette2 img {
+  border-radius: 15px 15px 0px 0px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+}
+.thematiques2 {
+  border-radius: 15px;
+  width: 70%;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: -780px;
+}
+
+
+.both {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  top : -240px;
+}
+
+.bannieregauche {
+  background-color: #f7c6b9;
+  width: 300px;
+  position: relative;
+  bottom: 17.4em;
+
+}
+
+.PC {
+  background-color: #F1B3A1;
+}
+
+.logothem {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: flex-end;
+  margin-top: -1012px;
+  
+}
+
+.cat {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: flex-end;
+  background-color: #f7c6b9;
+}
+
+.profil {
+  display: flex;
+  flex-flow: wrap, row;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -2px;
+}
+
+.rubrique {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}

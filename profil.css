@@ -1,0 +1,148 @@
+a { color: inherit;     text-decoration: none;} 
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header > img {
+  width: 100%;
+  -webkit-box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.35); 
+  box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.35);}
+
+.logo {
+  text-align: end;
+  margin-top: -250px;
+}
+   
+   
+.infotext {
+ padding-left: 10px;
+}
+   
+   
+.Pers_co {
+  align-items: center;
+  margin-left: 70px;
+  background-color:#F1B3A1;
+  font-size: 16px;
+}
+   
+
+.contact > a {
+  display: flex;
+}
+
+
+.contact > p {
+  text-decoration: none;
+}
+
+.contact > a > p {
+  padding-top: 25px;
+  padding-left: 20px;
+  color:#737373;
+
+}
+
+hr {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid #737373 0.01px;
+  opacity: 0.50;
+}
+   
+   
+.both {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  top : -240px;
+  padding-left: 25px;
+}
+
+.bannieregauche {
+  background-color: #f7c6b9;
+  width: 300px;
+  position: relative;
+  bottom: 17.4em;
+
+}
+
+.PC {
+  background-color: #F1B3A1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 16px;
+}
+
+.logothem {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: flex-end;
+  margin-top: -1274px;
+}
+
+.fondlogothem {
+  background-color: #f7c6b9;
+  
+}
+
+.cat {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: flex-end;
+  background-color: #f7c6b9;
+}
+
+.cat > a > img {
+  justify-content: space-around 1000px;
+}
+
+.profil {
+  display: flex;
+  flex-flow: wrap, row;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -2px;
+}
+
+.block {
+  background-color: #00b9bf8c ;
+  display: block;
+  justify-content: center;
+  margin-top: -920px;
+  width: 70%;
+  margin-left: 20%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.block {
+  height: 60px;
+  background-size: cover;
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+}
+
+.container-publication {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.rubrique > image {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.plus 
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 180px;
+}
+
+@media screen {
+    
+}

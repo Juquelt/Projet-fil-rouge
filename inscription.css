@@ -35,31 +35,6 @@ h1
     left: 50px;
 }
 
-.save
-{
-    width: 202px;
-    display: flex;
-    background:#00BABF;
-    align-items: center;
-    height: 35px;
-    border-radius: 20px;
-    justify-content: space-around;
-    color: white;
-
-    position: relative;
-    top : 800px;
-    right : 150px;
-
-
-}
-
-.save :hover 
-{
-    background-color: turquoise;
-    color: white;
-
-}
-
 .logo
 {
    position: relative;

@@ -23,7 +23,7 @@
                 font-size: 18px;
             }
 
-            .save 
+            .save
             {
                 text-align: center;
                 text-decoration: none;
@@ -88,12 +88,13 @@
 
                 <div class="schoolI">
                     <label for="université"></label>
-                    <input type="text" name="idecole" placeholder="Ecole / Université" required>
+                    <input type="text" name="ecole" placeholder="Ecole / Université" required>
                 </div>
 
-                <div class="save">
-                    <input type='submit' value='inscription'>
-                </div>
+                
+                <input type='submit' value='inscription'>
+                
             </form>
         </div>
+        <?php include ("footer.php");?>
     </body>
